@@ -1,6 +1,6 @@
+import { useState, useEffect } from "react";
 import "./App.css";
 import { BsCheck2, BsXLg } from "react-icons/bs";
-import { useState, useEffect } from "react";
 function App() {
   const [input, setInput] = useState("");
   const [list, setList] = useState([]);
@@ -72,7 +72,7 @@ function App() {
                   onClick={() => MarkComplete(id)}
                 />
                 <p
-                  tirle="click to update todo"
+                  title="click to update todo item"
                   className={data.complete ? "" : " incomplete"}
                   onClick={() => updateList(id)}
                 >
