@@ -90,4 +90,6 @@ li {
 }
 p:hover {
   color: #0dbcec;
+  cursor: pointer;
+  margin: 0;
 }
