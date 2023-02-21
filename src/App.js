@@ -74,7 +74,7 @@ function App() {
                 <p
                   title="click to update todo item"
                   className={data.complete ? "" : " incomplete"}
-                  onClick={() => updateList(id)}
+                  onDoubleClick={() => updateList(id)}
                 >
                   {data.text}
                 </p>
