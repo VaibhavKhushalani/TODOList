@@ -16,6 +16,7 @@ function App() {
     let data = [...list];
     data.splice(id, 1);
     setList(data);
+    localStorage.setItem("list", JSON.stringify(data));
   };
 
   const MarkComplete = (id) => {
@@ -32,6 +33,7 @@ function App() {
     };
     data.push(changeEle);
     setList(data);
+    localStorage.setItem("list", JSON.stringify(data));
   };
   const updateList = (id) => {
     let data = [...list];
