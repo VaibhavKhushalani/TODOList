@@ -72,7 +72,7 @@ function App() {
                   onClick={() => MarkComplete(id)}
                 />
                 <p
-                  title="click to update todo item"
+                  title="double click to update todo item"
                   className={data.complete ? "" : " incomplete"}
                   onDoubleClick={() => updateList(id)}
                 >
