@@ -26,6 +26,10 @@ This is a simple todo list application built using ReactJS.
 5. Double-click a todo item to edit its title.
 6. Click the "Clear Completed" button to remove all completed todo items from the list.
 
+## Deployed Version
+
+The ReactJS Todo List App is deployed on Netlify. You can view the app at https://todolist-vaibhav.netlify.app/.
+
 ## Contributing
 
 If you would like to contribute to the development of the todo list app, please follow these guidelines:
@@ -35,3 +39,7 @@ If you would like to contribute to the development of the todo list app, please 
 3. Make your changes to the code and commit them with a descriptive message.
 4. Push your changes to your forked repository.
 5. Create a pull request to merge your changes back into the main repository.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
